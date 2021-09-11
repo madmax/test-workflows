@@ -57,6 +57,13 @@ jobs:
         uses: actions/checkout@v2
       - name: Run Mysql
         run: sudo systemctl start mysql.service
+      - name: Install manticore search
+        run: |
+          wget -qO - https://repo.manticoresearch.com/GPG-KEY-manticore | sudo apt-key add -
+          wget https://repo.manticoresearch.com/manticore-repo.noarch.deb
+          sudo dpkg -i manticore-repo.noarch.deb
+          sudo apt update
+          sudo apt install manticore manticore-columnar-lib
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
