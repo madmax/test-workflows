@@ -6,9 +6,6 @@
   "author": "Grzegorz Derebecki <grzegorz.derebecki@fdb.pl>",
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
-    "@madmax/fontawesome-pro-duotone-svg-icons": "^5.15.3",
-    "@madmax/fontawesome-pro-light-svg-icons": "^5.15.3",
-    "@madmax/fontawesome-pro-regular-svg-icons": "^5.15.3",
     "@madmax/fontawesome-pro-solid-svg-icons": "^5.15.3"
   },
   "devDependencies": {}
