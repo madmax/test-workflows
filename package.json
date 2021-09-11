@@ -11,6 +11,5 @@
     "@madmax/fontawesome-pro-regular-svg-icons": "^5.15.3",
     "@madmax/fontawesome-pro-solid-svg-icons": "^5.15.3"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

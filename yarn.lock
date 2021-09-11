@@ -2,59 +2,35 @@
 # yarn lockfile v1
 
 
-"@fortawesome/fontawesome-common-types@^0.2.19":
-  version "0.2.19"
-  resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.19.tgz#754a0f85e1290858152e1c05700ab502b11197f1"
-  integrity sha512-nd2Ul/CUs8U9sjofQYAALzOGpgkVJQgEhIJnOHaoyVR/LeC3x2mVg4eB910a4kS6WgLPebAY0M2fApEI497raQ==
-
-"@fortawesome/fontawesome-common-types@^0.2.21":
-  version "0.2.21"
-  resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.21.tgz#f1c26ae24761cca583de7cafd1273ab4c70a4d87"
-  integrity sha512-iJtcrU2BtF9Wyr0zm3tHEJy3HqA6sADExhCqCv3SKaJJKKp4ORJ40t4nyHvcWXSVFtd7r1gcdqcRsAfoREGTFA==
-
 "@fortawesome/fontawesome-common-types@^0.2.35":
-  version "0.2.35"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.35.tgz#01dd3d054da07a00b764d78748df20daf2b317e9"
-  integrity sha512-IHUfxSEDS9dDGqYwIW7wTN6tn/O8E0n5PcAHz9cAaBoZw6UpG20IG/YM3NNLaGPwPqgjBAFjIURzqoQs3rrtuw==
-
-"@fortawesome/fontawesome-svg-core@^1.2.21":
-  version "1.2.21"
-  resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.21.tgz#5b08a28d6e1ea198e002447b158abba00fd12122"
-  integrity sha512-EhrgMZLJS0tTYZhUbodurZBqDgAFLDNdxJP/q5unrZJwiFo8Dd7xGvJdhAhY5WcX4khzkPQcbLTCMPHBtutD7Q==
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.21"
-
-"@fortawesome/free-brands-svg-icons@^5.9.0":
-  version "5.9.0"
-  resolved "https://npm.fontawesome.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.9.0.tgz#4ebedba0ea026368f8c21f2c598b4458c32236e5"
-  integrity sha512-sOz1wFyslaHUak8tY6IEhSAV1mAWbCLssBR8yFQV6f065k8nUCkjyrcxW4RVl9+wiLXmeG1CJUABUJV9DiW+7Q==
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.19"
+  "integrity" "sha512-IHUfxSEDS9dDGqYwIW7wTN6tn/O8E0n5PcAHz9cAaBoZw6UpG20IG/YM3NNLaGPwPqgjBAFjIURzqoQs3rrtuw=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.35.tgz"
+  "version" "0.2.35"
 
 "@madmax/fontawesome-pro-duotone-svg-icons@^5.15.3":
-  version "5.15.3"
-  resolved "https://npm.pkg.github.com/download/@madmax/fontawesome-pro-duotone-svg-icons/5.15.3/77769150a5b7b36c2f846bd9954bf2370aecd95f77d55998d7b5ba600906ac80#2a232bfbf6c6e69b51218fdb3dca692a54c0c4b5"
-  integrity sha512-is6dzStJfYiBqDp73w72vGGhhqVroP/Y/JxTPau0D+7uFUP9gYFQ324t3RLmWaDNDW5JxcZ4tU4w+WqN2up07g==
+  "integrity" "sha512-is6dzStJfYiBqDp73w72vGGhhqVroP/Y/JxTPau0D+7uFUP9gYFQ324t3RLmWaDNDW5JxcZ4tU4w+WqN2up07g=="
+  "resolved" "https://npm.pkg.github.com/download/@madmax/fontawesome-pro-duotone-svg-icons/5.15.3/77769150a5b7b36c2f846bd9954bf2370aecd95f77d55998d7b5ba600906ac80"
+  "version" "5.15.3"
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.35"
 
 "@madmax/fontawesome-pro-light-svg-icons@^5.15.3":
-  version "5.15.3"
-  resolved "https://npm.pkg.github.com/download/@madmax/fontawesome-pro-light-svg-icons/5.15.3/861c881018ecf670201c896ca3528ceb10d1813f407c26d67bd1583670489c0a#f719d4f8e96da902f2eb9d41bc20db96494536ea"
-  integrity sha512-NSREjlfa7F/5XkTJZMeUzBjvuCvMn4xFNZ8fyJZ4BHcn3Tlcobxvl5wH8EdSFFgzVy1w/dvd/cJxnO6D1zFIdg==
+  "integrity" "sha512-NSREjlfa7F/5XkTJZMeUzBjvuCvMn4xFNZ8fyJZ4BHcn3Tlcobxvl5wH8EdSFFgzVy1w/dvd/cJxnO6D1zFIdg=="
+  "resolved" "https://npm.pkg.github.com/download/@madmax/fontawesome-pro-light-svg-icons/5.15.3/861c881018ecf670201c896ca3528ceb10d1813f407c26d67bd1583670489c0a"
+  "version" "5.15.3"
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.35"
 
 "@madmax/fontawesome-pro-regular-svg-icons@^5.15.3":
-  version "5.15.3"
-  resolved "https://npm.pkg.github.com/download/@madmax/fontawesome-pro-regular-svg-icons/5.15.3/9a3dad4bef5ed756a06ef02a943316fb4f7f7dbf1ab247ca04d57fe5c8856b5d#fa523f68f7471132c71c83ff50cb97e17bc30b1e"
-  integrity sha512-IewPSMqw7XJ+nD0T7osXaigm+6iMZeW/viRRo69T5QwxA3LEqTD0FMRQrpS4sYIphg/Xa63uj/kvuGF0YAI39A==
+  "integrity" "sha512-IewPSMqw7XJ+nD0T7osXaigm+6iMZeW/viRRo69T5QwxA3LEqTD0FMRQrpS4sYIphg/Xa63uj/kvuGF0YAI39A=="
+  "resolved" "https://npm.pkg.github.com/download/@madmax/fontawesome-pro-regular-svg-icons/5.15.3/9a3dad4bef5ed756a06ef02a943316fb4f7f7dbf1ab247ca04d57fe5c8856b5d"
+  "version" "5.15.3"
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.35"
 
 "@madmax/fontawesome-pro-solid-svg-icons@^5.15.3":
-  version "5.15.3"
-  resolved "https://npm.pkg.github.com/download/@madmax/fontawesome-pro-solid-svg-icons/5.15.3/af4d0c03f653e592792b1490ca66e9b7a5356a6946c29cd11a9c2d94d4fe1b71#1aa4b71c38cef0e418edd3e98283f3407170006c"
-  integrity sha512-lIJhOi6iNVuQ8QhD2+PAV2ceQVKlt7FvRnJTgUcTw1+u3UjZTMXh5viy29M85tWKn7mu/P68dUALuVwcyoemlw==
+  "integrity" "sha512-lIJhOi6iNVuQ8QhD2+PAV2ceQVKlt7FvRnJTgUcTw1+u3UjZTMXh5viy29M85tWKn7mu/P68dUALuVwcyoemlw=="
+  "resolved" "https://npm.pkg.github.com/download/@madmax/fontawesome-pro-solid-svg-icons/5.15.3/af4d0c03f653e592792b1490ca66e9b7a5356a6946c29cd11a9c2d94d4fe1b71"
+  "version" "5.15.3"
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.35"
