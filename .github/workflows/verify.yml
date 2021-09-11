@@ -100,7 +100,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install packages
         run: |
-          yarn install --pure-lockfile
+          yarn install
 
       - name: Setup test database
         run: |
