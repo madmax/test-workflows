@@ -11,37 +11,8 @@
     "@madmax/fontawesome-pro-duotone-svg-icons": "^5.15.3",
     "@madmax/fontawesome-pro-light-svg-icons": "^5.15.3",
     "@madmax/fontawesome-pro-regular-svg-icons": "^5.15.3",
-    "@madmax/fontawesome-pro-solid-svg-icons": "^5.15.3",
-    "@popperjs/core": "^2.6.0",
-    "@rails/ujs": "^6.0.0-alpha",
-    "@rails/webpacker": "5.0.1",
-    "@schibstedspain/boros-cmp": "https://github.com/madmax/boros-CMP",
-    "@webcomponents/custom-elements": "^1.0.4",
-    "autosize": "^4.0.2",
-    "bootstrap": "5.0.1",
-    "bootstrap-datepicker": "^1.7.1",
-    "bounds.js": "^1.0.3",
-    "brotli-webpack-plugin": "^0.4.1",
-    "coffeescript": "1.12.7",
-    "css-element-queries": "^1.0.1",
-    "findandreplacedomtext": "^0.4.6",
-    "intersection-observer": "^0.7.0",
-    "lazysizes": "^5.1.0",
-    "object-fit-images": "^3.2.3",
-    "picturefill": "^3.0.2",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-smart-import": "^0.7.6",
-    "select2": "^4.1.0-rc.0",
-    "select2-bootstrap-5-theme": "https://github.com/apalfrey/select2-bootstrap-5-theme",
-    "shave": "^2.0.4",
-    "stimulus": "^1.1.1",
-    "stimulus-use": "^0.9.0",
-    "timeago.js": "^3.0.2",
-    "tributejs": "^3.4.0",
-    "uglifyjs-webpack-plugin": "1.0.0-beta.2",
-    "video.js": "5.14.1"
+    "@madmax/fontawesome-pro-solid-svg-icons": "^5.15.3"
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.10.3"
   }
 }
