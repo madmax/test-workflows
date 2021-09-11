@@ -102,6 +102,8 @@ jobs:
         env:
           NPM_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          yarn -v
+          npm -v
           cat .npmrc
           npm install
           yarn --verbose install
