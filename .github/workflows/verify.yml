@@ -52,18 +52,23 @@ jobs:
     env:
       RAILS_ENV: test
       DATABASE_URL: mysql2://root:root@127.0.0.1/app?pool=30&encoding=utf8mb4&collation=utf8mb4_unicode_ci
+    services:
+      manticore:
+        image: manticoresearch/manticore
+        ports:
+          - 9306:9306
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run Mysql
         run: sudo systemctl start mysql.service
-      - name: Install manticore search
-        run: |
-          wget -qO - https://repo.manticoresearch.com/GPG-KEY-manticore | sudo apt-key add -
-          wget https://repo.manticoresearch.com/manticore-repo.noarch.deb
-          sudo dpkg -i manticore-repo.noarch.deb
-          sudo apt update
-          sudo apt install manticore manticore-columnar-lib
+      # - name: Install manticore search
+      #   run: |
+      #     wget -qO - https://repo.manticoresearch.com/GPG-KEY-manticore | sudo apt-key add -
+      #     wget https://repo.manticoresearch.com/manticore-repo.noarch.deb
+      #     sudo dpkg -i manticore-repo.noarch.deb
+      #     sudo apt update
+      #     sudo apt install manticore manticore-columnar-lib
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
