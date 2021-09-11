@@ -1,0 +1,25 @@
+name: Deploy
+on:
+  push:
+    branches: [ master ]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Setup ssh keys
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      run: |
+        mkdir ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        cat ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H cebulion.neubloc.pl >> ~/.ssh/known_hosts
+    - name: Perform deployment
+      run: |
+        git remote add staging sverige@cebulion.neubloc.pl:/www/sverige.neubloc.pl
+        git push staging $GITHUB_SHA:master --force 2>&1 | tee -a deploy.log
+        deploy/check_status deploy.log
