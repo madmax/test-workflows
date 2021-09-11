@@ -100,6 +100,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install packages
         run: |
+          cat .npmrc
           yarn install
 
       - name: Setup test database
